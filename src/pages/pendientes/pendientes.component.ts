@@ -3,6 +3,7 @@ import { ListaDeseosService } from '../../services/lista-deseos.service';
 import { NavController } from 'ionic-angular';
 import { AgregarComponent } from '../agregar/agregar.component';
 import { ListaDetalleComponent } from '../lista-detalle/lista-detalle.component';
+import { PendientesPipe } from '../../pipes/pendientes.pipe';
 
 
 @Component({

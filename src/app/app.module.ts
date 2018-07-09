@@ -17,16 +17,20 @@ import { ListaDeseosService } from '../services/lista-deseos.service';
 
 // Pipes
 import { PlaceHolderPipe } from '../pipes/placeholder.pipe';
+import { PendientesPipe } from '../pipes/pendientes.pipe';
+import { TerminadosPipe } from '../pipes/terminados.pipe';
 
 
 @NgModule({
   declarations: [
     MyApp,
+    ListaDetalleComponent,
     PendientesComponent,
+    TerminadosPipe,
     TerminadosComponent,
     AgregarComponent,
     PlaceHolderPipe,
-    ListaDetalleComponent,
+    PendientesPipe,
     TabsPage
   ],
   imports: [
